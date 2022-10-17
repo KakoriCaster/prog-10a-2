@@ -1,14 +1,29 @@
-from math import *
-a=int(input("Ievadiet a: "))
-b=int(input("Ievadiet b: "))
-c=int(input("Ievadiet c: "))
-D=b**2-4*a*c
-if D<0:
-  print("sakņu nav!")
-elif D==0:
- x=-b/2*a
- print("Ir viena sakne =",x)
-else:
- x1=(-b+sqrt(D))/2*a
- x2=(-b-sqrt(D))/2*a
-print("Ir divas saknes, x1 =",x1," x2 =",x2)
+men=int(input("Введи число, а я покажу, какой месяц ему соответствует: "))
+if men>12:
+  print("Такого месяца нет")
+if men<1:
+  print("Такого месяца нет")
+if men==1:
+ print("январь")
+if men==2:
+ print("Февраль")
+if men==3:
+ print("Март")
+if men==4:
+ print("Апрель")
+if men==5:
+ print("Май")
+if men==6:
+ print("Июнь")
+if men==7:
+ print("Июль")
+if men==8:
+ print("Август")
+if men==9:
+ print("Сентябрь")
+if men==10:
+ print("Октябрь")
+if men==11:
+ print("Ноябрь")
+if men==12:
+ print("Декабрь")
