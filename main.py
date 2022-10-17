@@ -5,25 +5,14 @@ if men<1:
   print("Такого месяца нет")
 if men==1:
  print("январь")
-if men==2:
- print("Февраль")
-if men==3:
- print("Март")
-if men==4:
- print("Апрель")
-if men==5:
- print("Май")
-if men==6:
- print("Июнь")
-if men==7:
- print("Июль")
-if men==8:
- print("Август")
-if men==9:
- print("Сентябрь")
-if men==10:
- print("Октябрь")
-if men==11:
- print("Ноябрь")
-if men==12:
- print("Декабрь")
+elif men==2:print("Февраль")
+elif men==3:print("Март")
+elif men==4:print("Апрель")
+elif men==5:print("Май")
+elif men==6:print("Июнь")
+elif men==7:print("Июль")
+elif men==8:print("Август")
+elif men==9:print("Сентябрь")
+elif men==10:print("Октябрь")
+elif men==11:print("Ноябрь")
+elif men==12:print("Декабрь")
