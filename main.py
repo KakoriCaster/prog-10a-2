@@ -1,8 +1,13 @@
-podestsk=int(input("Введите необходимое кол-во подиумов: "))
-ļenķlistsk=12*podestsk
-stūrasaviensk=8*podestsk
-podestmataug=int(input("Введите ширину стороны подиума: "))
-podestmatplat=int(input("Введите длинну стороны подиума: "))
-materialalaukums=podestsk*(podestmataug*podestmatplat*6)
-print("нужное кол-во материала=", materialalaukums, "квадратных сантиметров")
-print("также необходимо:")
+import math
+
+RulPlat=int(input("Rulona platums: "))
+RulGar=int(input("Rulona garums: "))
+RulCena=int(input("Rulona Cenu: "))
+TelpasGarums=int(input("Telpa Garums: "))
+TelpasPlatums=int(input("Telpa platums: "))
+
+RulonaLaukums=RulGar*RulPlat
+telpasizmers = math.ceil(TelpasGarums) * math.ceil(TelpasPlatums)
+GridaCena=telpasizmers/RulonaLaukums*RulCena
+
+print("izklājot gridas cena:", GridaCena)
